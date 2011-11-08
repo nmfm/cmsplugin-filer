@@ -1,0 +1,4 @@
+{% load filer_video_tags %}
+{% filer_video object.movie %}
+
+<p>Download original: <a href="{{ object.movie.file.url }}">{{ object.movie.file.name }}</a></p>
